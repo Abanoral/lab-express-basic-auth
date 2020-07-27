@@ -1,0 +1,9 @@
+<div id="container">
+    <a href="/signup">Sign up</a>
+    <a href="/login">Login</a>
+    <a href="/secret">secret page (requires authentication!)</a>
+    {{#if logged}}
+      <a href="/auth/main">main</a>
+      <a href="/auth/private">Private</a>
+    {{/if}}
+</div>
